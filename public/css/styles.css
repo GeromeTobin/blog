@@ -1,0 +1,40 @@
+.blogPost {
+
+border-style: solid;
+border-radius: 15px;
+margin: 2rem 2rem;
+padding: 15px;
+padding-top: 25px;
+
+}
+
+.btn {
+width: 100%;
+background-color: #ff6600;
+
+}
+
+.postSection {
+
+  border-style: solid;
+  border-radius: 15px;
+  margin: 2rem 2rem;
+  padding: 10px;
+
+}
+
+.bg {
+  background-color: #FFF5EC;
+
+
+}
+
+.notFeet {
+  min-height: calc(100vh - 30px);
+}
+
+
+
+.head {
+  background-color: #ff6600;
+}

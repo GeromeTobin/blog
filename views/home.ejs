@@ -1,0 +1,26 @@
+<%- include("header.ejs") -%>
+
+
+
+  <% for (var i=0; i<newBlogPost.length; i++) { %>
+<div class="blogPost">
+  <p>
+    <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample<%= + i %>" aria-expanded="false" aria-controls="collapseExample">
+      <p class="posted"> <%= newBlogPost[i] %> </p>
+    </button>
+  </p>
+  <div class="collapse" id="collapseExample<%= + i %>">
+    <div class="card card-body bg">
+      <h1>Day <%= i +1 %></h1>
+          <p class="posted"> <%= newFullPost[i] %> </p>
+    </div>
+  </div>
+
+</div>
+  <% } %>
+
+
+
+
+
+<%- include("footer.ejs") -%>
